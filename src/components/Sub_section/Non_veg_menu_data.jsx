@@ -33,7 +33,9 @@ const Non_veg_data = [
       image: 'https://i.pinimg.com/474x/d3/29/f0/d329f0d5ea0fd5e5a9554beddaa257f2.jpg',
       title: 'Chicken Sandwich',
       price: 'Rs 110',
+      
     },
+    
   ];
   
   export default Non_veg_data;

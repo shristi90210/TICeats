@@ -12,10 +12,10 @@ function Home() {
       <div className="intro-section">
         <div className="circle">
           <div className="circle-cont">
-            <h1>LOREM IPSUM</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea et ex facere explicabo libero similique tempore quaerat exercitationem reprehenderit non eos nesciunt culpa, maiores at in rerum quia? Possimus aliquam hic porro corporis aspernatur sint, ratione ea natus, voluptatem.<br />deleniti at  cumque nesciunt voluptas. Dignissimos, non! </p>
+            <h1>TIC Eats</h1>
+            <p>Your one-stop solution for delicious meals at Thames International College!<br/> With TIC Eats, ordering food is easier and faster than ever!  </p>
 
-            <button className="menu-button"><Link to="/menu">CHECKOUT MENU ➡️</Link></button>
+            <button className="menu-button"><Link to="/menu">CHECKOUT MENU <i class="fa-solid fa-arrow-right"></i></Link></button>
           </div>
 
         </div>

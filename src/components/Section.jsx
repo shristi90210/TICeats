@@ -6,8 +6,9 @@ import About from './Sub_section/About'
 import Contact from './Sub_section/Contact'
 import Menu from './Sub_section/Menu'
 import Page_not_found from './Sub_section/Page_not_found'
-import Veg_menu from './Sub_section/Veg_menu'
-import Non_veg_menu from './Sub_section/Non_veg_menu'
+import Snacks from './Sub_section/Snacks'
+import Beverages_section from './Sub_section/Beverages_carousel'
+import Add_to_cart from './Sub_section/Add_to_cart'
 
 
 function Section() {
@@ -20,8 +21,9 @@ function Section() {
       <Route path='/about' element={<About/>}></Route>
       <Route path='/contact' element={<Contact/>}></Route>
       <Route path='/menu' element={<Menu/>}></Route>
-      <Route path='/veg-menu' element={<Veg_menu/>}></Route>
-      <Route path='/non-veg-menu' element={<Non_veg_menu/>}></Route>
+      <Route path='/snacks' element={<Snacks/>}></Route>
+      <Route path='/add-to-cart' element={<Add_to_cart/>}></Route>
+      <Route path='/beverages' element={<Beverages_section/>}></Route>
       <Route path='*' element={<Page_not_found/>}></Route>  
     </Routes>
    </>

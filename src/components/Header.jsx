@@ -15,9 +15,8 @@ function Header() {
         </ul>  
       </nav>  
       <div className="logo">TIC</div>  
-      <div className="icons">  
-        <span className="icon"><i class="fa-regular fa-user"></i></span>
-        <span className="icon"><i class="fa-regular fa-user"></i></span> 
+      <div className="icons"> 
+      <span className="icon"><i class="fa-solid fa-cart-shopping"></i></span> 
         <span className="icon"><i class="fa-regular fa-user"></i></span> 
       </div>  
     </header>  

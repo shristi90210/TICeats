@@ -72,7 +72,7 @@ function Beverages_section() {
                                 <div className="content">
                                 <h3>{dish.title}</h3>
                                 <p>Price | {dish.price}</p>
-                                <button className="order-button">Order Now</button>
+                                <button className="order-button">Add To Cart Now</button>
 
                                 </div>
 

@@ -75,7 +75,7 @@ function TodaysSpecial() {
                 <button className="add-button">+</button>
                 <button className="remove-button">−</button>
               </div>
-                <button className="order-button">Order Now</button>
+                <button className="order-button">Add To Cart Now</button>
 
               </div>
             ))}

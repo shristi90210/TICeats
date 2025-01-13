@@ -66,12 +66,13 @@ $border-radius: 5px;
 
     .icons {
         display: flex;
-        align-items: center;
+        margin-left: 100px;
+        gap: 20px;
 
         .icon {
             color: $secondary-color;
-            margin-left: $spacing;
-            font-size: 1.5em;
+
+            font-size: 20px;
 
 
             &:hover {
@@ -102,18 +103,23 @@ $border-radius: 5px;
             justify-content: center;
             text-align: center;
 
-
             .circle-cont {
                 width: fit-content;
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 18px;
+}
 
                 .menu-button {
                     margin-top: 30px;
-                    padding: 10px;
-                    background-color: $dark-color;
+                    padding: 12px;
+                    background-color: $secondary-color;
                     border-radius: 20px;
-                    font-size: 20px;
+                    font-size: 14px;
                     font-weight: 100;
-                    color: $primary-color;
+                    border: 1px solid $dark-color;
 
                 }
             }
@@ -148,7 +154,7 @@ $border-radius: 5px;
             font-weight: 100;
             font-size: 50px;
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 60px;
         }
 
         .arrow {
@@ -271,12 +277,12 @@ $border-radius: 5px;
                     font-weight: lighter;
                     font-size: 50px;
                     margin-bottom: 30px;
-                   
+
                 }
 
                 h2 {
                     font-weight: lighter;
-                    font-size: 30px;
+                    font-size: 20px;
                     margin-bottom: 15px;
                 }
 
@@ -860,3 +866,53 @@ $border-radius: 5px;
 }
 
 // -------------------PAGE NOT FOUND  SECTION-------------------//
+
+// ------------LANDING PAGE----------------//
+
+#landingpage {
+    
+    
+    margin-top:50px;
+
+    .sign-page {
+        background-color: #a5a98897;
+        width: 600px;
+        margin: 10px auto;
+        padding: 20px;
+        border-radius: 100px;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+
+            li {
+
+                background-color: $secondary-color;
+                padding: 3px;
+                border-radius: 40px;
+
+            }
+        }
+    }
+
+    .circle {
+            background-color:#a5a98898;
+            height: 400px;
+width: 800px;
+            border-radius:500px;
+          
+           margin: 20px auto 130px auto;
+          
+        .circle-cont {
+          text-align: center;
+        }
+    }
+
+}
+
+// ------------LANDING PAGE----------------//
+// -------SIGN-UP-PAGE------------------//
+.sign-up-container {}
+
+// -------SIGN-UP-PAGE------------------//

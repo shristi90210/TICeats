@@ -1,7 +1,5 @@
 import React from 'react';
 import Non_veg_data from './Non_veg_menu_data'; 
-import TodaysSpecial from './Carousel_data';
-import Beverages_section from './Beverages_carousel';
 
 
 const Non_veg_menu = () => {
@@ -20,18 +18,14 @@ const Non_veg_menu = () => {
                 <button className="remove-button">−</button>
               </div>
               <div className="order-now-btn">
-                <button className="order-now">Order Now</button>
+                <button className="order-now">Add To Cart Now</button>
               </div>
             </div>
           ))}
         </div>
       </div>
-      <Beverages_section/>
-      <div className="specials-section">  
-        <div className="carousel">
-          <TodaysSpecial/>
-        </div>
-      </div>  
+     
+       
     </div>
     
   );
